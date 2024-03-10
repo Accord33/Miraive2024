@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+header ul li {
+    padding: 0 20px;
+    margin: 0 0 0 auto;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin: 0 0 0 auto;
+}
+.space {
+    height: 200px;
+}
+#particles-js{ 
+    position:fixed;/*描画固定*/
+    z-index:-1;/*描画を一番下に*/
+    width: 100%;
+    height: 100%;
+}
+  
+#wrapper{
+    position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+    z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+    width:100%;
+    height: 100%;
+}
+.About {
+    padding: 50px 0;
+    text-align: center;
+} 
+.About h2 {
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
+}
