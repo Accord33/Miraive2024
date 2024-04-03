@@ -1,0 +1,59 @@
+/* 内部タイトルのスタイル */
+.in_tit_box {
+    text-align: center;
+}
+.in_tit {
+    display:block;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0.8em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.in_tit::after {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 30px;
+    background-color: aqua;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .in_tit::after {
+        content: "";
+        display: block;
+        width: 70%;
+        height: 30px;
+        background-color: aqua;
+        margin: 0 auto;
+        position: relative;
+        top: -50px;
+        z-index: -1;
+        border-radius: 50px;
+    }
+}
+.s_text {
+    display:block;
+    font-size: 20px;
+}
+
+/* planのスタイル */
+.mini-title {
+    text-align: center;
+}
+.plan {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #cacaca;
+    border-radius: 30px;
+    padding: 10%;
+}
+.unity {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2.08px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke: #00a0e9;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        fill: #00a0e9;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: KozGoPr6N-Regular-83pv-RKSJ-H, 'Kozuka Gothic Pr6N';
+        font-size: 9.58px;
+      }
+
+      .cls-7 {
+        letter-spacing: .25em;
+      }
+
+      .cls-3 {
+        stroke-width: 6.26px;
+      }
+
+      .cls-6 {
+        fill: #c9caca;
+      }
+
+      .cls-8 {
+        fill: #231815;
+        font-family: Makinas-4-Flat-83pv-RKSJ-H, Makinas;
+        font-size: 13.97px;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 6.26px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-6" x="89.43" y="785.41" width="416.41" height="44.24"/>
+  <polygon class="cls-4" points="487.25 458.04 505.84 458.04 505.84 829.65 89.43 829.65 89.43 12.24 505.84 12.24 505.84 383.85 487.25 383.85 487.25 458.04"/>
+  <g>
+    <g>
+      <polyline class="cls-1" points="125.1 117.99 125.1 157.95 125.1 117.99"/>
+      <g>
+        <circle class="cls-5" cx="140.99" cy="136.97" r="9.63"/>
+        <text class="cls-2" transform="translate(138.35 140.85)"><tspan x="0" y="0">1</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-1" points="125.1 297.81 125.1 337.77 125.1 297.81"/>
+      <g>
+        <circle class="cls-5" cx="140.99" cy="317.79" r="9.63"/>
+        <text class="cls-2" transform="translate(138.35 321.67)"><tspan x="0" y="0">3</tspan></text>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-1" points="470.18 207.9 470.18 247.86 470.18 207.9"/>
+      <g>
+        <circle class="cls-5" cx="454.29" cy="227.88" r="9.63"/>
+        <text class="cls-2" transform="translate(451.65 231.76)"><tspan x="0" y="0">2</tspan></text>
+      </g>
+    </g>
+  </g>
+  <line class="cls-3" x1="89.43" y1="567.38" x2="202.4" y2="567.38"/>
+  <line class="cls-3" x1="392.88" y1="567.38" x2="505.84" y2="567.38"/>
+  <rect class="cls-6" x="249.08" y="563.31" width="97.11" height="166.83"/>
+  <rect class="cls-6" x="249.08" y="414.31" width="97.11" height="97.11"/>
+  <text class="cls-8" transform="translate(496.79 425.56)"><tspan x="0" y="0">1</tspan><tspan class="cls-7" x="4.74" y="0">F</tspan><tspan x="16.33" y="0">会場</tspan></text>
+</svg>

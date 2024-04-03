@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/* ヘッダーのスタイル */
+header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+header .logo {
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    margin-left: 30px;
+    z-index: 10;
+}
+header .logo img {
+    width: 100%;
+}
+header .pc_nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+header .pc_nav ul li {
+    padding: 0 20px;
+    margin: 0 0 0 auto;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    margin: 0 0 0 auto;
+}
+.phone_nav {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.pc_nav{
+        display: none;
+    }
+    .phone_nav {
+        display: block;
+    }
+}
+/* 背景のパーティクルの表示 */
+#particles-js{ 
+    position:fixed;/*描画固定*/
+    z-index:-1;/*描画を一番下に*/
+    width: 100%;
+    height: 100%;
+}
+  
+#wrapper{
+    position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
+    z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
+    width:100%;
+    height: 100%;
+}
+
+/* ハンガーメニュー */
+/*ボタン外側※レイアウトによってpositionや形状は適宜変更してください*/
+.openbtn{
+	/*ボタン内側の基点となるためrelativeを指定。
+追従するナビゲーションの場合はfixed＋top、rightといった位置をセットで指定*/
+	position: relative;
+	cursor: pointer;
+    width: 50px;
+    height:50px;
+	border-radius: 5px;
+}
+
+/*ボタン内側*/
+.openbtn span{
+    display: inline-block;
+    transition: all .4s;/*アニメーションの設定*/
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+	background: aqua;
+  	width: 45%;
+  }
+
+.openbtn span:nth-of-type(1) {
+	top:15px;	
+}
+
+.openbtn span:nth-of-type(2) {
+	top:23px;
+}
+
+.openbtn span:nth-of-type(3) {
+	top:31px;
+}
+
+/*activeクラスが付与されると線が回転して×に*/
+
+.openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+	opacity: 0;/*真ん中の線は透過*/
+}
+
+.openbtn.active span:nth-of-type(3){
+    top: 30px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+}
+
+
+
+/* footerのスタイル */
+footer {
+    height: 200px;
+    /* background: rgb(0,255,249); */
+    /* background: linear-gradient(90deg, rgba(0,255,249,1) 0%, rgba(133,101,255,1) 100%); */
+    text-align: center;
+    background: linear-gradient(0deg, #27c4fd 0, rgba(255, 255, 255, 0) 100%);
+}
+footer p {
+    padding-top: 100px;
+}

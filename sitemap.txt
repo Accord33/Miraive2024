@@ -1,0 +1,8 @@
+User-Agent:*
+Disallow:
+
+Sitemap:https://miraive2024.web.app/
+Sitemap:https://miraive2024.web.app/index.html
+Sitemap:https://miraive2024.web.app/booth.html
+Sitemap:https://miraive2024.web.app/stage.html
+Sitemap:https://miraive2024.web.app/sitemap.xml

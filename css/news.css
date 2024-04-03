@@ -1,0 +1,68 @@
+/* 内部タイトルのスタイル */
+.in_tit_box {
+    text-align: center;
+}
+.in_tit {
+    display:block;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0.8em;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.in_tit::after {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 30px;
+    background-color: aqua;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .in_tit::after {
+        content: "";
+        display: block;
+        width: 70%;
+        height: 30px;
+        background-color: aqua;
+        margin: 0 auto;
+        position: relative;
+        top: -50px;
+        z-index: -1;
+        border-radius: 50px;
+    }
+}
+.s_text {
+    display:block;
+    font-size: 20px;
+}
+
+.contents {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 1px solid #000; */
+    padding: 5%;
+}
+.contents .date {
+    background-color: #303030;
+    color: white;
+    padding:0 7px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+.contents h2 {
+    margin: 0 0 50px 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: double 5px #4ec4d3;
+}
+.contents p{
+    line-height: 1.7em;
+}

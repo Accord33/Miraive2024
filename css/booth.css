@@ -1,0 +1,120 @@
+/* サークルアイコンの表示 */
+.gallery{
+    padding:0 15px;/*ギャラリー左右に余白をつける*/
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style:none;
+    width: 25%;
+}
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.gallery img{
+	width:100%;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/
+}
+.gallery p {
+    text-align: center;
+}
+
+/* 　横幅900px以下の段組み設定　 */
+@media only screen and (max-width: 900px) {
+    .gallery li {
+        width: 33.3333%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gallery li {
+        width: 50%;
+    }
+}
+
+.floor {
+    margin: 0 auto ;
+}
+.floor .floor_pic {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    background-color: white;
+} 
+.all_floor p{
+    text-align: center
+}
+/* 内部タイトルのスタイル */
+.in_tit_box {
+    text-align: center;
+}
+.in_tit {
+    display:block;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 0.8em;
+    font-weight: 300;
+}
+.in_tit::after {
+    content: "";
+    display: block;
+    width: 35%;
+    height: 30px;
+    background-color: aqua;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 800px) {
+    .in_tit::after {
+        content: "";
+        display: block;
+        width: 70%;
+        height: 30px;
+        background-color: aqua;
+        margin: 0 auto;
+        position: relative;
+        top: -50px;
+        z-index: -1;
+        border-radius: 50px;
+    }
+}
+.s_text {
+    display:block;
+    font-size: 20px;
+}
+/* 内部ミニタイトルのスタイル */
+.in_minitit_box {
+    /* text-align: center; */
+    padding-left: 7%;
+}
+.in_minitit {
+    display:block;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0.8em;
+    font-weight: 300;
+}
+.in_minitit::after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 25px;
+    background-color: rgb(177, 177, 177);
+    /* margin: 0 auto; */
+    position: relative;
+    top: -42px;
+    left: -13%;
+    z-index: -1;
+    border-radius: 0 50px 50px 0;
+}
+.s_minitext {
+    display:block;
+    font-size: 20px;
+}
